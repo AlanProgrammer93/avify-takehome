@@ -16,8 +16,8 @@ module.exports = {
     },
     output: {
         filename: '[name]-[contenthash:6].bundle.js',
-        path: path.join(__dirname, 'dist'),
-        publicPath: `/`
+        path: path.join(__dirname, 'build'),
+        publicPath: `./`
     },
     resolve: {
         mainFields: ['browser', 'module', 'main'],

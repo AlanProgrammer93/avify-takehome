@@ -4,7 +4,7 @@
     "test": "jest",
     "dev": "webpack-dev-server --hot --progress",
     "build": "webpack --mode production",
-    "start": "webpack serve --hot --progress"
+    "start": "webpack-dev-server --hot --progress"
   },
   "dependencies": {
     "react": "^18.1.0",

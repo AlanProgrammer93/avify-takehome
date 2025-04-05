@@ -1,16 +1,101 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    min-height: 100vh;
-    background: #2b2b2b;
+    background: #414040;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-/* .test {
-    color: red;
-} */
+.dashboard-container {
+    padding: 30px;
+}
+
+.dashboard-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .charts-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* PieChart */
+.pie-container {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pie-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.recharts-legend-wrapper ul,
+.recharts-legend-wrapper ul span,
+.recharts-legend-wrapper ul li {
+    background-color: white !important;
+}
+
+/* BarChart */
+.chart-container {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chart-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: white;
+}
+
+/* RadialChart */
+.radial-section {
+    margin-top: 40px;
+}
+
+.radial-container {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.radial-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: white;
+}
+
+.recharts-responsive-container svg {
+    background: white !important;
+}
+
+.recharts-default-tooltip {
+    background-color: red;
+}

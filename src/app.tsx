@@ -15,7 +15,7 @@ const App = () => {
 
     return (
         <div className="dashboard-container">
-            <h1 className="dashboard-title">Dashboard de Energía</h1>
+            <h1 className="dashboard-title">Porcentajes de Energia Generada</h1>
 
             <div className="charts-grid">
                 <PieChart data={energyGeneration} />

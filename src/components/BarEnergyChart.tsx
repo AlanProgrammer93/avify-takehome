@@ -5,7 +5,7 @@ import { COLORS } from '../utils';
 const BarEnergyChart = ({ data }) => {
     return (
         <div className="chart-container">
-            <h2 className="chart-title">Distribución de Energía (Barras)</h2>
+            <h2 className="chart-title">Grafico de Barras</h2>
             <ResponsiveContainer width="100%" height={300}>
                 <BarChart
                     data={data}

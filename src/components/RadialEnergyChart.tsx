@@ -5,7 +5,7 @@ import { COLORS } from '../utils';
 const RadialEnergyChart = ({ data }) => {
     return (
         <div className="radial-container">
-            <h2 className="radial-title">Distribución de Energía (Radial)</h2>
+            <h2 className="radial-title">Grafico de Radio</h2>
             <ResponsiveContainer width="100%" height={300}>
                 <RadialBarChart
                     cx="50%"

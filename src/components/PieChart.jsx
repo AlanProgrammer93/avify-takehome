@@ -5,7 +5,7 @@ import { COLORS } from '../utils'
 const PieChartComponent = ({ data }) => {
     return (
         <div className="chart-container">
-            <h2 className="chart-title">Distribución de Energía (Pie)</h2>
+            <h2 className="chart-title">Grafico de Torta</h2>
             <ResponsiveContainer width="100%" height={300}>
                 <PieChart>
                     <Pie
